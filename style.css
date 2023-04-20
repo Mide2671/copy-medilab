@@ -1,0 +1,305 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+
+}
+#navbar-logo{
+    font-size: 30px;
+    color: #2c4964;
+}
+#navbar a{
+    color: #2c4964;
+    font-size: 15px;
+}
+#hero{
+  width: 100%;
+  height: 90vh;
+  width: 100%;
+  height: 90vh;
+  background: url("img/hero-bg.jpg") top center;
+  background-size: cover;
+  margin-bottom: -200px;
+ 
+}
+#hero .container{
+    position: relative;
+    top: 200px;
+}
+#hero button{
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 35px;
+    margin-top: 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background: #1977cc;
+}
+#hero h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #2c4964;
+  }
+  
+  #hero h2 {
+    color: #2c4964;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+  }
+  .why-us .content {
+    padding: 30px;
+    background: #1977cc;
+    border-radius: 4px;
+    color: #fff;
+  }
+  #navbar-na{
+    padding-left: 200px;
+  }
+   .appointment-btn{
+    position: relative;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 9px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background-color:  #1977cc;
+    width: 280px;
+   
+  }
+  #aimg{
+    position: relative;
+    
+  }
+  .about-box{
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+
+  }
+  .about-box  h3{
+   color: #08406e;
+
+  }
+  #about .video-box {
+    background: url("img/about.jpg") center center no-repeat;
+    background-size: cover;
+    min-height: 500px;
+  }
+  input{
+    height: 50px;
+  }
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #2c4964;
+  }
+  .section-title p {
+    margin-bottom: 0;
+  }
+ #services .icon-box {
+    text-align: center;
+    border: 1px solid #d5e1ed;
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+  }
+  #services .icon-box:hover {
+    background: #1977cc;
+    border-color: #1977cc;
+    color: white;
+  }
+  #services .icon-box h4{
+  font-size: 30px;
+  color: #1977cc;
+ }
+ #services .icon-box h4:hover{
+  font-size: 30px;
+  color: #ffff;
+ }
+ .info p{
+  color: #748291;
+  font-size: 15px;
+ }
+ .footer-head{
+  font-size: 22px;
+ letter-spacing: 1px;
+ }
+ .ll{
+  padding: 40px;
+  padding-left: 100px;
+ }
+ #footer{
+  border: 1px solid #d5e1ed;
+  transition: all ease-in-out 0.3s;
+ }
+ .counts {
+  background: #f1f7fd;
+  
+}
+.counts .count-box i {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  background: #1977cc;
+  color: #fff;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+}
+
+.counts .count-box{
+  padding: 30px 30px 25px 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background: #fff;
+}
+
+.counts .count-box span {
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+  color: #082744;
+}
+#departments img{
+   height: 200px;
+}
+#img-ca{
+  border: 1px solid #d5e1ed;
+  transition: all ease-in-out 0.3s;
+}
+#question-card{
+  align-items: center;
+  background-color: white;
+}
+
+.fre-list li{
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+  width: 1000px;
+  
+}
+.fre-list li+li{
+  margin-top: 15px;
+}
+.fre-list{
+  padding: 0 100px;
+}
+.fre-list ul{
+  padding: 0;
+  list-style: none;
+}
+.why-us .icon-box{
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid #d5e1ed;
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+}
+#about .icon-box{
+  border: none;
+  background-color: white;
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+  padding:20px;
+}
+#about .icon-box a{
+ display: flex;
+ text-decoration: none;
+ color:black;
+ justify-content: baseline;
+ align-items: start;
+}
+
+.why-us .icon-boxes .icon-box i {
+  font-size: 40px;
+  color: #1977cc;
+  margin-bottom: 30px;
+}
+#about .icon-box .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #8dc2f1;
+  border-radius: 50px;
+  transition: 0.5s;
+  padding-left: 5px;
+}
+
+#about .icon-box .icon i {
+  color: #1977cc;
+  font-size: 32px;
+}
+#services .icon-box .icon{
+background: #1977cc;
+width: 50px;
+height: 50px;
+margin-left: 150px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#services .icon-box .icon i{
+  color: white;
+  font-size: 32px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  #last{
+    padding-left: 20px;
+
+  }
+  #last .icon {
+    position: relative;
+    background: #1977cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display:inline-flex ;
+    float: right;
+    top: -50px;
+    margin: 8px;
+  }
+  #last i{
+    color: white;
+  }
+  #footer i{
+    color: #1977cc;
+    font-size: 10px;
+  }
+  #footer p {
+    font-size: 13px;
+  }
